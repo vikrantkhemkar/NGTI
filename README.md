@@ -1,6 +1,7 @@
 # NGTITest
+
 1. Build, run and experiment with the API (in the README you can find two ways of running the code)
-    - Built an application using Vitualbox and Vagrant.
+    - I Built an application using Vitualbox and Vagrant.
 
 2. Explain how you would test the API
     ```bash
