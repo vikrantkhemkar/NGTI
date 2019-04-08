@@ -1,7 +1,8 @@
 # NGTITest
+ # Below are the solutions of the 5 tasks given by NGTI team.
 
 1. Build, run and experiment with the API (in the README you can find two ways of running the code)
-    - I Built an application using Vitualbox and Vagrant.
+    - I built an application using Vitualbox and Vagrant.
 
 2. Explain how you would test the API
     ```bash
@@ -55,12 +56,17 @@
       ``` 
 4. Show how this web interface can be tested by providing a working set-up.
     ```bash
+     As you have the continuous delivery pipeline in place, Where builds get deployed from pre-production environments to production 
+     environment without any manual intervention. I would like to keep the implementation behind feature flag on Production, once we 
+     perform the full regression on feature on Test environment then the feature can be turned on on Production.
+    
     Verify the search result is as per the search term
     Verify searching with cross site screepting terms in search box (ex. <script>alert "error"</script>)
     Verify the result after setting transport type dropdown filter
     Verify the sorting order of the vehicle records is as per highest to lowest units of vehicle
     Verify the sorting order of the vehicle records when search term is entered
     Verify vehicle url is redirecting to right page
+
     ```
 5. Provide instructions how we could add automated testing of both the api and the web interface to our (Jenkins based) CI/CD pipeline.
     - For adding API and UI tests, we can create free style or pipeline project in jenkins
